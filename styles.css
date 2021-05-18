@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Audiowide';
+}
+
+main {
+    margin: 2% auto;
+    height: 35em;
+    width: 20em;
+    background-color: gold;
+    border: solid;
+    border-radius: 50px;
+}
+
+.calculations_display_area {
+    height: 12em;
+    width: 19.65em;
+    position: relative;
+    border: solid;
+    border-color: rgb(161, 116, 2);
+    border-radius: 45px 45px 40px 40px;
+}
+
+.calculations_container {
+    position: relative;
+    top: 3em;
+    margin-left: 15px;
+}
+
+.calculator_items_container {
+    height: 23em;
+    width: 19em;
+    position: relative;
+    border-color: gold;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.section__calculator_items_1 {
+    height: 4em;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__calculator_items_2 {
+    height: 4em;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__calculator_items_3 {
+    height: 4em;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__calculator_items_4 {
+    height: 4em;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__calculator_items_5 {
+    height: 4em;
+    width: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data-styles {
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    height: 3em;
+    width: 3em;
+    background-color: rgba(36, 52, 65, 255);
+    color: rgb(247, 161, 3);
+    border: none;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    outline: none;
+}
+
+.data-styles:hover {
+    color: white;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.data-styles:active {
+    transform: translateY(6px);
+}
+
+.operators-color {
+    color: rgb(255, 230, 0);
+}
+
+.equal_to {
+    width: 8em;
+    background-color: rgb(255, 176, 7);
+    color: white;
+}
+
+.calculations_result {
+    color: rgb(12, 58, 185);
+    font-size: 28px;
+}
+
+.calculations_values {
+    color: rgb(126, 118, 243);
+    font-size: 15px;
+}
+
+@media (max-width: 550px) {}
